@@ -1,0 +1,104 @@
+<div class = "ui two column grid container">
+  <div class = "ui two column centered grid">
+    <div class = "column">
+      <div class="ui card">
+        <div class="image">
+          <img src="http://semantic-ui.com/images/avatar2/large/kristy.png">
+        </div>
+        <div class="content">
+          <a class="header">{{user.displayName}}</a>
+          <div class="meta">
+            <span class="date">Height: {{user.height}}</span>
+          </div>
+          <div class="description">
+            I love Fitbits, the Student Developer Mentorship program, and the Health
+            Wearables Hackathon!
+          </div>
+        </div>
+        <div class="extra content">
+          <a>
+            <i class="user icon"></i>
+              Average daily steps: {{user.averageDailySteps}}
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class = "column">
+      <!-- hack lol -->
+    </div>
+  </div>
+</div>
+<div class = "ui two column grid container">
+  <div class = "column">
+    <h1>Profile: </h1>
+    <table class="ui celled striped table">
+    <thead>
+      <tr><th colspan="2">
+        User Information:
+      </th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td>
+          <i class="folder icon"></i> Height
+        </td>
+        <td>{{user.height}}</td>
+      </tr>
+      <tr>
+        <td>
+          <i class="folder icon"></i> Weight
+        </td>
+        <td>{{user.weight}}</td>
+      </tr>
+      <tr>
+        <td>
+          <i class="folder icon"></i> Country
+        </td>
+        <td>{{user.country}}</td>
+      </tr>
+      <tr>
+        <td>
+          <i class="file outline icon"></i> Member Since
+        </td>
+        <td>{{user.memberSince}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class = "column">
+    <h1>Activity: </h1>
+    <table class="ui celled striped table">
+    <thead>
+      <tr><th colspan="3">
+        Stats:
+      </th>
+    </tr></thead>
+    <tbody>
+      <tr>
+        <td>
+          <i class="folder icon"></i> Distance
+        </td>
+        <td>{{summary.distances.0.distance}}</td>
+      </tr>
+      <tr>
+        <td>
+          <i class="folder icon"></i> Steps
+        </td>
+        <td>{{summary.steps}}</td>
+      </tr>
+      <tr>
+        <td>
+          <i class="folder icon"></i> Floors
+        </td>
+        <td>{{summary.floors}}</td>
+      </tr>
+      <tr>
+        <td>
+          <i class="file outline icon"></i> Calories Burned
+        </td>
+        <td>{{summary.caloriesOut}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
