@@ -16,4 +16,4 @@ The latest version of npm and gulp. Install all dependencies with 'npm install'!
 
 How to Deploy:
 The easiest way is to set up a Heroku app and deploy to it via Git.
-Checkout this tutorial: https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction
+Check out this tutorial: https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction
